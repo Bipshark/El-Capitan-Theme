@@ -7,7 +7,7 @@
     // Tab set
     {
         "class": "tabset_control",
-        "layer0.texture": "Theme - El Capitan/Assets/tabset-background.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/tabset-background.png",
         "layer0.inner_margin": [1, 7],
         "layer0.opacity": 1.0,
         "content_margin": [-4, 0, -4, 0],
@@ -33,7 +33,7 @@
         "content_margin": [12, 0, 12, 0],
         "max_margin_trim": 0,
         "hit_test_level": 0.0,
-        "layer0.texture": "Theme - El Capitan/Assets/tab-inactive.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/tab-inactive.png",
         "layer0.inner_margin": [5, 5],
         "layer0.opacity": 1.0
     },
@@ -47,13 +47,13 @@
     {
         "class": "tab_control",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - El Capitan/Assets/tab-hover.png"
+        "layer0.texture": "Theme - El Capitan Remix/Assets/tab-hover.png"
     },
     // Tab active state
     {
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - El Capitan/Assets/tab-active.png"
+        "layer0.texture": "Theme - El Capitan Remix/Assets/tab-active.png"
     },
 
 
@@ -65,7 +65,7 @@
     {
         "class": "tab_close_button",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - El Capitan/Assets/tab-close.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/tab-close.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": 0
     },
@@ -78,14 +78,14 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.texture": "Theme - El Capitan/Assets/tab-dirty.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/tab-dirty.png",
         "layer0.opacity": 0.5   
     },
     // Tab close button hover
     {
         "class": "tab_close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - El Capitan/Assets/tab-close-hover.png"
+        "layer0.texture": "Theme - El Capitan Remix/Assets/tab-close-hover.png"
     },
     // Tab close button pressed
     {
@@ -132,7 +132,7 @@
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Theme - El Capitan/Assets/tabset-list.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/tabset-list.png",
         "layer0.opacity": 0.5,
         "layer0.inner_margin": 0
     },
@@ -145,7 +145,7 @@
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [9, 6, 8, 7],
-        "layer0.texture": "Theme - El Capitan/Assets/tabset-left.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/tabset-left.png",
         "layer0.opacity": 0.5,
         "layer0.inner_margin": 0
     },
@@ -158,7 +158,7 @@
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Theme - El Capitan/Assets/tabset-right.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/tabset-right.png",
         "layer0.opacity": 0.5,
         "layer0.inner_margin": 0
     },
@@ -174,7 +174,7 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "Theme - El Capitan/Assets/fold-closed.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/fold-closed.png",
         "layer0.inner_margin": 0,
         "content_margin": [8, 8],
         "layer0.opacity": 1.0
@@ -182,7 +182,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - El Capitan/Assets/fold-open.png"
+        "layer0.texture": "Theme - El Capitan Remix/Assets/fold-open.png"
     },
 
 //
@@ -192,7 +192,7 @@
     // Standard vertical scroll bar
     {
         "class": "scroll_bar_control",
-        "layer0.texture": "Theme - El Capitan/Assets/scrollbar/standard-scrollbar-vertical.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/scrollbar/standard-scrollbar-vertical.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 6],
         "blur": false
@@ -201,21 +201,21 @@
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - El Capitan/Assets/scrollbar/standard-scrollbar-horizontal.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/scrollbar/standard-scrollbar-horizontal.png",
         "layer0.inner_margin": [6, 2],
         "blur": false
     },
     // Standard scroll bar corner
     {
         "class": "scroll_corner_control",
-        "layer0.texture": "Theme - El Capitan/Assets/scrollbar/standard-scrollbar-corner.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/scrollbar/standard-scrollbar-corner.png",
         "layer0.inner_margin": [2, 2],
         "layer0.opacity": 1.0
     },
     // Standard vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.texture": "Theme - El Capitan/Assets/scrollbar/standard-puck-vertical.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/scrollbar/standard-puck-vertical.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 10],
         "content_margin": [8, 12],
@@ -225,7 +225,7 @@
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - El Capitan/Assets/scrollbar/standard-puck-horizontal.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/scrollbar/standard-puck-horizontal.png",
         "layer0.inner_margin": [10, 0],
         "content_margin": [12, 8],
         "blur": false
@@ -250,7 +250,7 @@
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "Theme - El Capitan/Assets/scrollbar/overlay-scrollbar-vertical.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/scrollbar/overlay-scrollbar-vertical.png",
         "layer0.inner_margin": [0, 5],
         "blur": true
     },
@@ -259,7 +259,7 @@
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - El Capitan/Assets/scrollbar/overlay-scrollbar-horizontal.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/scrollbar/overlay-scrollbar-horizontal.png",
         "layer0.inner_margin": [5, 0],
         "blur": true
     },
@@ -267,7 +267,7 @@
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "Theme - El Capitan/Assets/scrollbar/overlay-puck-vertical.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/scrollbar/overlay-puck-vertical.png",
         "layer0.inner_margin": [0, 5],
         "content_margin": [5, 20],
         "blur": true
@@ -277,7 +277,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - El Capitan/Assets/scrollbar/overlay-puck-horizontal.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/scrollbar/overlay-puck-horizontal.png",
         "layer0.inner_margin": [5, 0],
         "content_margin": [20, 5],
         "blur": true
@@ -287,14 +287,14 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
-        "layer0.texture": "Theme - El Capitan/Assets/scrollbar/overlay-dark-puck-vertical.png"
+        "layer0.texture": "Theme - El Capitan Remix/Assets/scrollbar/overlay-dark-puck-vertical.png"
     },
     // Overlay light horizontal puck (for dark content)
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal", "dark"],
-        "layer0.texture": "Theme - El Capitan/Assets/scrollbar/overlay-dark-puck-horizontal.png"
+        "layer0.texture": "Theme - El Capitan Remix/Assets/scrollbar/overlay-dark-puck-horizontal.png"
     },
 
 //
@@ -398,7 +398,7 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.texture": "Theme - El Capitan/Assets/tooltip.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/tooltip.png",
         "layer0.inner_margin": [1, 1],
         "layer0.opacity": 0.95,
         "content_margin": [3, 3]
@@ -417,7 +417,7 @@
     // Status bar container
     {
         "class": "status_bar",
-        "layer0.texture": "Theme - El Capitan/Assets/status-bar-background.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/status-bar-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
         "content_margin": [8, 4, 8, 4]
@@ -443,7 +443,7 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        "layer0.texture": "Theme - El Capitan/Assets/sidebar-bg.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/sidebar-bg.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1, 2, 1],
         "content_margin": [0, 0, 0, 0]
@@ -459,7 +459,7 @@
     // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.texture": "Theme - El Capitan/Assets/sidebar-row-selected.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/sidebar-row-selected.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
     },
@@ -537,7 +537,7 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Theme - El Capitan/Assets/file-close.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/file-close.png",
         "layer0.inner_margin": 0,
         "layer0.tint": [ 0, 0, 0 ],
         "layer0.opacity": 0.0,
@@ -552,14 +552,14 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - El Capitan/Assets/file-dirty.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/file-dirty.png",
         "layer0.opacity": 0.65
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - El Capitan/Assets/file-dirty.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/file-dirty.png",
         "layer0.tint": [ 255, 255, 255 ],
         "layer0.opacity": 1.0
     },
@@ -567,13 +567,13 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - El Capitan/Assets/file-close-hover.png"
+        "layer0.texture": "Theme - El Capitan Remix/Assets/file-close-hover.png"
     },
     // Sidebar file close hover
     {
         "class": "close_button",
         "attributes": ["hover"], 
-        "layer0.texture": "Theme - El Capitan/Assets/file-close-hover.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/file-close-hover.png",
         "layer0.tint": [ 0, 0, 0 ],
         "layer0.opacity": 0.85
     },
@@ -592,7 +592,7 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - El Capitan/Assets/group-closed.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/group-closed.png",
         "layer0.opacity": 0.42,
         "layer0.tint": [ 0, 0, 0 ],
         "layer0.inner_margin": 0
@@ -612,7 +612,7 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - El Capitan/Assets/group-open.png"
+        "layer0.texture": "Theme - El Capitan Remix/Assets/group-open.png"
     },
     {
         "class": "disclosure_button_control",
@@ -622,14 +622,14 @@
     // Sidebar folder closed
     {
         "class": "icon_folder",
-        "layer0.texture": "Theme - El Capitan/icons/folder.png",
+        "layer0.texture": "Theme - El Capitan Remix/icons/folder.png",
         "content_margin": [8, 8]
     },
     // Sidebar folder open
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-        "layer0.texture": "Theme - El Capitan/icons/folder.png"
+        "layer0.texture": "Theme - El Capitan Remix/icons/folder.png"
     },
     // Sidebar folder loading
     {
@@ -638,14 +638,14 @@
         {
             "keyframes":
             [
-                "Theme - El Capitan/Assets/spinner/spinner7.png",
-                "Theme - El Capitan/Assets/spinner/spinner6.png",
-                "Theme - El Capitan/Assets/spinner/spinner5.png",
-                "Theme - El Capitan/Assets/spinner/spinner4.png",
-                "Theme - El Capitan/Assets/spinner/spinner3.png",
-                "Theme - El Capitan/Assets/spinner/spinner2.png",
-                "Theme - El Capitan/Assets/spinner/spinner1.png",
-                "Theme - El Capitan/Assets/spinner/spinner.png"
+                "Theme - El Capitan Remix/Assets/spinner/spinner7.png",
+                "Theme - El Capitan Remix/Assets/spinner/spinner6.png",
+                "Theme - El Capitan Remix/Assets/spinner/spinner5.png",
+                "Theme - El Capitan Remix/Assets/spinner/spinner4.png",
+                "Theme - El Capitan Remix/Assets/spinner/spinner3.png",
+                "Theme - El Capitan Remix/Assets/spinner/spinner2.png",
+                "Theme - El Capitan Remix/Assets/spinner/spinner1.png",
+                "Theme - El Capitan Remix/Assets/spinner/spinner.png"
             ],
             "loop": true,
             "frame_time": 0.075,
@@ -670,7 +670,7 @@
         "class": "button_control",
         "content_margin": [6, 5, 6, 6],
         "min_size": [75, 0],
-        "layer0.texture": "Theme - El Capitan/Assets/btn-small.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/btn-small.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [6, 6]
     },
@@ -678,7 +678,7 @@
     {
         "class": "button_control",
         "attributes": ["pressed"],
-        "layer0.texture": "Theme - El Capitan/Assets/btn-small-pressed.png"
+        "layer0.texture": "Theme - El Capitan Remix/Assets/btn-small-pressed.png"
     },
 
 //
@@ -688,7 +688,7 @@
     // Text input field item
     {
         "class": "text_line_control",
-        "layer0.texture": "Theme - El Capitan/Assets/text-field.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/text-field.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [8, 8, 8, 8],
         "content_margin": [3, 3, 6, 3]
@@ -698,7 +698,7 @@
     {
         "class": "dropdown_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - El Capitan/Assets/text-field-list.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/text-field-list.png",
         "layer0.opacity": 0.8,
         "layer0.inner_margin": [4, 4]
     },
@@ -715,7 +715,7 @@
     // Bottom panel background
     {
         "class": "panel_control",
-        "layer0.texture": "Theme - El Capitan/Assets/panel-background.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/panel-background.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
         "content_margin": [0, 0, 0, 0]
@@ -723,7 +723,7 @@
     // Quick panel background
     {
         "class": "overlay_control",
-        "layer0.texture": "Theme - El Capitan/Assets/quick-panel-background.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/quick-panel-background.png",
         "layer0.inner_margin": [10, 16, 10, 10],
         "layer0.opacity": 1.0,
         "content_margin": [4, 16, 4, 10 ]
@@ -743,7 +743,7 @@
     {
         "class": "text_line_control",
         "parents": [{"class": "overlay_control" }],
-        "layer0.texture": "Theme - El Capitan/Assets/quick-panel-text-field.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/quick-panel-text-field.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [18, 8, 18, 8],
         "content_margin": [16, 6, 16, 6]
@@ -751,14 +751,14 @@
 
     {
         "class": "quick_panel_row",
-        "layer0.texture": "Theme - El Capitan/Assets/quick-panel-row.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/quick-panel-row.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - El Capitan/Assets/quick-panel-row-selected.png"
+        "layer0.texture": "Theme - El Capitan Remix/Assets/quick-panel-row-selected.png"
     },
     {
         "class": "quick_panel_label",
@@ -786,14 +786,14 @@
 
     {
         "class": "mini_quick_panel_row",
-        "layer0.texture": "Theme - El Capitan/Assets/quick-panel-row.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/quick-panel-row.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - El Capitan/Assets/quick-panel-row-selected.png"
+        "layer0.texture": "Theme - El Capitan Remix/Assets/quick-panel-row-selected.png"
     },
 
 //
@@ -819,7 +819,7 @@
     },
     {
         "class": "table_row",
-        "layer0.texture": "Theme - El Capitan/Assets/autocomplete-row-selected.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/autocomplete-row-selected.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [3, 1]
     },
@@ -836,7 +836,7 @@
     // Button group middle
     {
         "class": "icon_button_control",
-        "layer0.texture": "Theme - El Capitan/Assets/btn-group-middle.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/btn-group-middle.png",
         "layer0.inner_margin": [6, 6],
         "layer0.opacity": 1.0,
         "content_margin": [3, 3]
@@ -844,62 +844,62 @@
     {
         "class": "icon_button_control",
         "attributes": ["pressed"],
-        "layer0.texture": "Theme - El Capitan/Assets/btn-group-middle-pressed.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/btn-group-middle-pressed.png",
     },
     // Button group left
     {
         "class": "icon_button_control",
         "attributes": ["left"],
-        "layer0.texture": "Theme - El Capitan/Assets/btn-group-left.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/btn-group-left.png",
         "content_margin": [4, 3, 3, 3]
     },
     {
         "class": "icon_button_control",
         "attributes": ["left", "pressed"],
-        "layer0.texture": "Theme - El Capitan/Assets/btn-group-left-pressed.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/btn-group-left-pressed.png",
     },
     // Button group right
     {
         "class": "icon_button_control",
         "attributes": ["right"],
-        "layer0.texture": "Theme - El Capitan/Assets/btn-group-right.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/btn-group-right.png",
         "content_margin": [3, 3, 4, 3]
     },
     {
         "class": "icon_button_control",
         "attributes": ["right", "pressed"],
-        "layer0.texture": "Theme - El Capitan/Assets/btn-group-right-pressed.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/btn-group-right-pressed.png",
     },
     // Button single
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"],
-        "layer0.texture": "Theme - El Capitan/Assets/btn-small.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/btn-small.png",
         "content_margin": [4, 3]
     },
     {
         "class": "icon_button_control",
         "attributes": ["left", "right", "pressed"],
-        "layer0.texture": "Theme - El Capitan/Assets/btn-small-pressed.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/btn-small-pressed.png",
     },
 
     // Panel close button
     {
         "class": "panel_close_button",
-        "layer0.texture": "Theme - El Capitan/Assets/panel-close.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/panel-close.png",
         "layer0.opacity": 0.5,
         "content_margin": [8, 12]
     },
     {
         "class": "panel_close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - El Capitan/Assets/panel-close-hover.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/panel-close-hover.png",
         "layer0.opacity": 0.5
     },
     {
         "class": "panel_close_button",
         "attributes": ["pressed"],
-        "layer0.texture": "Theme - El Capitan/Assets/panel-close-hover.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/panel-close-hover.png",
         "layer0.opacity": 1.0
     },
 
@@ -910,7 +910,7 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - El Capitan/Assets/icon-regex.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/icon-regex.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [0, 0, 0],
         "content_margin": [9, 9]
@@ -923,7 +923,7 @@
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - El Capitan/Assets/icon-case.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/icon-case.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [0, 0, 0],
         "content_margin": [9, 9]
@@ -936,7 +936,7 @@
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - El Capitan/Assets/icon-word.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/icon-word.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [0, 0, 0],
         "content_margin": [9, 9]
@@ -954,7 +954,7 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - El Capitan/Assets/icon-context.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/icon-context.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [0, 0, 0],
         "content_margin": [9, 9]
@@ -967,7 +967,7 @@
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - El Capitan/Assets/icon-buffer.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/icon-buffer.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [0, 0, 0],
         "content_margin": [9, 9]
@@ -980,7 +980,7 @@
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - El Capitan/Assets/icon-wrap.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/icon-wrap.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [0, 0, 0],
         "content_margin": [9, 9]
@@ -993,7 +993,7 @@
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - El Capitan/Assets/icon-selection.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/icon-selection.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [0, 0, 0],
         "content_margin": [9, 9]
@@ -1011,7 +1011,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - El Capitan/Assets/icon-preserve.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/icon-preserve.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [0, 0, 0],
         "content_margin": [9, 9]
@@ -1029,7 +1029,7 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - El Capitan/Assets/icon-highlight.png",
+        "layer0.texture": "Theme - El Capitan Remix/Assets/icon-highlight.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [0, 0, 0],
         "content_margin": [9, 9]
