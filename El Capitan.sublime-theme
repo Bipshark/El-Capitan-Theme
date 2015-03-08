@@ -629,7 +629,7 @@
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-        "layer0.texture": "Theme - El Capitan/icons/folder_opened.png"
+        "layer0.texture": "Theme - El Capitan/icons/folder.png"
     },
     // Sidebar folder loading
     {
