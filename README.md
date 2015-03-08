@@ -6,18 +6,11 @@ Based on Soda Theme by Ian Hill ([http://buymeasoda.com/](http://buymeasoda.com/
 
 ## Design
 
-![Screenshot](https://raw.githubusercontent.com/wiki/iccir/El-Capitan-Theme/Screenshot.png)
-
-Also available in a [dark version](https://github.com/r3volution11/El-Capitan-Theme), courtesy of [Doug Hardester](https://github.com/r3volution11)!
+![screenshot](https://cloud.githubusercontent.com/assets/2521318/6547397/0abcf024-c5d7-11e4-8aed-67872a652ddb.png)
 
 ## Installation
 
 El Capitan theme is designed to work with the latest development builds of [Sublime Text 3](http://www.sublimetext.com/3dev).
-
-### Using Sublime Package Control
-
-(Investigate Package Control)
-<!--If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Soda Theme via the `Package Control: Install Package` menu item. The Soda Theme package is listed as `Theme - Soda` in the packages list.-->
 
 ### Using Git
 
@@ -27,12 +20,12 @@ You can locate your Sublime Text `Packages` directory by using the menu item `Pr
 
 While inside the `Packages` directory, clone the theme repository using the command below:
 
-    git clone https://github.com/iccir/El-Capitan-Theme/ "Theme - El Capitan"
+    git clone https://github.com/Bipshark/El-Capitan-Theme.git "Theme - El Capitan Remix"
 
 ### Download Manually
 
 * Download the files using the GitHub .zip download option
-* Unzip the files and rename the folder to `Theme - El Capitan`
+* Unzip the files and rename the folder to `Theme - El Capitan Remix`
 * Find your `Packages` directory using the menu item  `Preferences -> Browse Packages...`
 * Copy the folder into your Sublime Text `Packages` directory
 
@@ -43,12 +36,12 @@ To configure Sublime Text to use the theme, follow the instructions below for yo
 ### Sublime Text 3
 
 * Open your User Settings Preferences file `Sublime Text -> Preferences -> Settings - User`
-* Add (or update) your theme entry to be `"theme": "El Capitan.sublime-theme"`
+* Add (or update) your theme entry to be `"theme": "El Capitan Remix.sublime-theme"`
 
 **Example Sublime Text 3 User Settings**
 
     {
-        "theme": "El Capitan.sublime-theme"
+        "theme": "El Capitan Remix.sublime-theme"
     }
 
 
